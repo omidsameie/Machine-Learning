@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
+import pdb 
 x = np.arange(1,11,1)
 y0 = 2+ 4*x
 y_rand = np.random.uniform(low=-0.1,high=0.1,size = len(x))
